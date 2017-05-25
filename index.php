@@ -13,7 +13,7 @@
     <script>
 
       function redirecionar(){
-        window.location.href = "perguntas.php";
+        window.location.href = "pergunta1.php";
       }
 
     </script>
