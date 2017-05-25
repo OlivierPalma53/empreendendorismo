@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+$_SESSION['pontos'] = 100;
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,6 +18,13 @@
     <title>Teste de Empreendedorismo</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script>
+      $($(document).ready(function() {
+        
+      });)
+
+
+    </script>
 
   </head>
 
@@ -42,12 +57,12 @@
 
       <div class="col-md-2 rodape2">
           <ul class="nav">
-            <li class="rede-social" title="Siga-nos no Instagram"> <a href="#"><img src="img/facebook.png"/></a></li> 
+            <li class="rede-social" title="Siga-nos no Instagram"> <a href="#"><img src="img/facebook.png"/></a></li>
             <li class="rede-social" title="Siga-nos no Twitter"> <a href="#"><img src="img/twitter.png"/>  </a></li>
-            <li class="rede-social" title="Siga-nos no Instagram"> <a href="#"><img src="img/instagram.png"/> </a></li> 
+            <li class="rede-social" title="Siga-nos no Instagram"> <a href="#"><img src="img/instagram.png"/> </a></li>
           </ul>
         </div>
-				
+
 				<div class="col-md-2">
 					<h4>PLANEJAMENTO</h4>
 					<ul class="nav nav-rodape">
@@ -57,8 +72,8 @@
             <p>Andreia</p>
             <p>Suelen</p>
             <p>Weverton</p>
-            <p>Lara</p>		
-            <p>Maria</p>	
+            <p>Lara</p>
+            <p>Maria</p>
 					</ul>
 				</div>
 
@@ -66,11 +81,11 @@
           <h4>DESIGN</h4>
           <ul class="nav nav-rodape">
             <p>Henrique Brandão</p>
-            <p>John Cunha</p> 
-            <p>João Vitor Soares</p> 
-            <p>Letícia</p> 
-            <p>Manuella Brandão</p> 
-            <p>Matheus José</p>          
+            <p>John Cunha</p>
+            <p>João Vitor Soares</p>
+            <p>Letícia</p>
+            <p>Manuella Brandão</p>
+            <p>Matheus José</p>
           </ul>
         </div>
 
@@ -80,12 +95,14 @@
             <p>Cristtiano Witor</p>
             <p>Matheus da Costa</p>
             <p>Mayquel Phílipe</p>
-            <p>Vitor Lepesqueur</p>   
+            <p>Vitor Lepesqueur</p>
           </ul>
         </div>
-				
+
 			</div>
 		</div>
 	</div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
+  </html>
